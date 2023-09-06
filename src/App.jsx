@@ -16,7 +16,7 @@ function App() {
               <h3 className="card__info">Друзья: {hero.friends}</h3>
               <h3 className="card__info">Суперсила: {hero.superpowers}</h3>
               <h3 className="card__info">Информация: {hero.info}</h3>
-              <image className="card__image"  src={hero.url} alt={hero.name}></image>
+              <img className="card__image" src={hero.url} alt={hero.name}></img>
               <hr />
             </div>
           );
